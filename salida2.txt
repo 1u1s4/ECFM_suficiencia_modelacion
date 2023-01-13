@@ -1,0 +1,545 @@
+              count         mean  ...          75%           max
+Unnamed: 0  11536.0  5767.500000  ...  8651.250000  11535.000000
+P01F03      11536.0   205.346047  ...     0.000000  64800.000000
+P15B02      11536.0    10.852462  ...     0.000000   4000.000000
+P15B04      11536.0    75.097868  ...     0.000000  36700.000000
+P15B06A     11536.0     0.061026  ...     0.000000      8.000000
+P13A02A     11536.0     0.400659  ...     1.000000      5.000000
+P06B01      11536.0     3.218187  ...     4.000000     20.000000
+P06B10A     11536.0     0.028528  ...     0.000000      3.000000
+P06B10B     11536.0     3.328799  ...     5.000000     30.000000
+P09A03B     11536.0     0.271926  ...     0.000000      8.571429
+P09A03C     11536.0     0.052020  ...     0.000000     18.750000
+P09B02B     11536.0     0.030853  ...     0.000000     10.000000
+P09B02C     11536.0     1.494675  ...     0.000000     37.500000
+P09F03B     11536.0     0.223393  ...     0.333333     10.500000
+P09F03C     11536.0     3.581792  ...     6.000000     50.000000
+P09F04B     11536.0     1.539624  ...     2.200000     13.000000
+P09F04C     11536.0     3.516644  ...     5.000000     50.000000
+P09F05B     11536.0     0.572266  ...     0.777778     12.800000
+P09F05C     11536.0     0.624090  ...     0.000000     50.000000
+P09F06B     11536.0     0.038626  ...     0.000000     13.000000
+P09F06C     11536.0     0.081365  ...     0.000000     45.000000
+P09F07B     11536.0     0.108293  ...     0.000000     12.000000
+P09F07C     11536.0     0.214939  ...     0.000000     30.000000
+P09F08B     11536.0     0.083493  ...     0.000000     11.000000
+P09F08C     11536.0     1.227673  ...     0.000000     45.000000
+P09F09B     11536.0     1.191026  ...     1.833333     11.000000
+P09F09C     11536.0     3.018689  ...     4.285714     45.000000
+P10B01      11536.0     0.504347  ...     0.666667      3.000000
+P10B08      11536.0   489.878935  ...   650.000000  21600.000000
+P10B20B     11536.0     6.334541  ...     0.000000   2000.000000
+P11A05B     11536.0    81.464898  ...     0.000000  20910.000000
+P11A06B     11536.0   105.072263  ...     0.000000  12920.000000
+
+[32 rows x 8 columns]
+Unnamed: 0    0
+pobreza       0
+P01F03        0
+P15B02        0
+P15B04        0
+P15B06A       0
+P13A02A       0
+P06B01        0
+P06B10A       0
+P06B10B       0
+P09A03B       0
+P09A03C       0
+P09B02B       0
+P09B02C       0
+P09F03B       0
+P09F03C       0
+P09F04B       0
+P09F04C       0
+P09F05B       0
+P09F05C       0
+P09F06B       0
+P09F06C       0
+P09F07B       0
+P09F07C       0
+P09F08B       0
+P09F08C       0
+P09F09B       0
+P09F09C       0
+P10B01        0
+P10B08        0
+P10B20B       0
+P11A05B       0
+P11A06B       0
+dtype: int64
+Unnamed: 0      int64
+Label          object
+P01F03        float64
+P15B02        float64
+P15B04        float64
+P15B06A       float64
+P13A02A       float64
+P06B01          int64
+P06B10A       float64
+P06B10B       float64
+P09A03B       float64
+P09A03C       float64
+P09B02B       float64
+P09B02C       float64
+P09F03B       float64
+P09F03C       float64
+P09F04B       float64
+P09F04C       float64
+P09F05B       float64
+P09F05C       float64
+P09F06B       float64
+P09F06C       float64
+P09F07B       float64
+P09F07C       float64
+P09F08B       float64
+P09F08C       float64
+P09F09B       float64
+P09F09C       float64
+P10B01        float64
+P10B08        float64
+P10B20B       float64
+P11A05B       float64
+P11A06B       float64
+dtype: object
+Iteration: 	1 / 100
+Confirmed: 	0
+Tentative: 	32
+Rejected: 	0
+Iteration: 	2 / 100
+Confirmed: 	0
+Tentative: 	32
+Rejected: 	0
+Iteration: 	3 / 100
+Confirmed: 	0
+Tentative: 	32
+Rejected: 	0
+Iteration: 	4 / 100
+Confirmed: 	0
+Tentative: 	32
+Rejected: 	0
+Iteration: 	5 / 100
+Confirmed: 	0
+Tentative: 	32
+Rejected: 	0
+Iteration: 	6 / 100
+Confirmed: 	0
+Tentative: 	32
+Rejected: 	0
+Iteration: 	7 / 100
+Confirmed: 	0
+Tentative: 	32
+Rejected: 	0
+Iteration: 	8 / 100
+Confirmed: 	13
+Tentative: 	4
+Rejected: 	15
+Iteration: 	9 / 100
+Confirmed: 	13
+Tentative: 	4
+Rejected: 	15
+Iteration: 	10 / 100
+Confirmed: 	13
+Tentative: 	4
+Rejected: 	15
+Iteration: 	11 / 100
+Confirmed: 	13
+Tentative: 	4
+Rejected: 	15
+Iteration: 	12 / 100
+Confirmed: 	14
+Tentative: 	3
+Rejected: 	15
+Iteration: 	13 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	14 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	15 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	16 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	17 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	18 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	19 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	20 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	21 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	22 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	23 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	24 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	25 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	26 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	27 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	28 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	29 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	30 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	31 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	32 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	33 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	34 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	35 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	36 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	37 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	38 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	39 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	40 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	41 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	42 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	43 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	44 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	45 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	46 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	47 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	48 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	49 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	50 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	51 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	52 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	53 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	54 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	55 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	56 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	57 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	58 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	59 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	60 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	61 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	62 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	63 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	64 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	65 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	66 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	67 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	68 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	69 / 100
+Confirmed: 	14
+Tentative: 	2
+Rejected: 	16
+Iteration: 	70 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	71 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	72 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	73 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	74 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	75 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	76 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	77 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	78 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	79 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	80 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	81 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	82 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	83 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	84 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	85 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	86 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	87 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	88 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	89 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	90 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	91 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	92 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	93 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	94 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	95 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	96 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	97 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	98 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+Iteration: 	99 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+
+
+BorutaPy finished running.
+
+Iteration: 	100 / 100
+Confirmed: 	15
+Tentative: 	1
+Rejected: 	16
+[ True False False False False  True  True  True  True False False False
+ False  True False False False False False False False False False  True
+  True  True  True  True  True  True  True  True]
+[ 1  9 11  2 12  1  1  1  1  4 14  3  6  1  8  9  5  6 15 12 18 16 17  1
+  1  1  1  1  1  1  1  1]
+Feature: Unnamed: 0                     Rank: 1,  Keep: True
+Feature: P01F03                         Rank: 9,  Keep: False
+Feature: P15B02                         Rank: 11,  Keep: False
+Feature: P15B04                         Rank: 2,  Keep: False
+Feature: P15B06A                        Rank: 12,  Keep: False
+Feature: P13A02A                        Rank: 1,  Keep: True
+Feature: P06B01                         Rank: 1,  Keep: True
+Feature: P06B10A                        Rank: 1,  Keep: True
+Feature: P06B10B                        Rank: 1,  Keep: True
+Feature: P09A03B                        Rank: 4,  Keep: False
+Feature: P09A03C                        Rank: 14,  Keep: False
+Feature: P09B02B                        Rank: 3,  Keep: False
+Feature: P09B02C                        Rank: 6,  Keep: False
+Feature: P09F03B                        Rank: 1,  Keep: True
+Feature: P09F03C                        Rank: 8,  Keep: False
+Feature: P09F04B                        Rank: 9,  Keep: False
+Feature: P09F04C                        Rank: 5,  Keep: False
+Feature: P09F05B                        Rank: 6,  Keep: False
+Feature: P09F05C                        Rank: 15,  Keep: False
+Feature: P09F06B                        Rank: 12,  Keep: False
+Feature: P09F06C                        Rank: 18,  Keep: False
+Feature: P09F07B                        Rank: 16,  Keep: False
+Feature: P09F07C                        Rank: 17,  Keep: False
+Feature: P09F08B                        Rank: 1,  Keep: True
+Feature: P09F08C                        Rank: 1,  Keep: True
+Feature: P09F09B                        Rank: 1,  Keep: True
+Feature: P09F09C                        Rank: 1,  Keep: True
+Feature: P10B01                         Rank: 1,  Keep: True
+Feature: P10B08                         Rank: 1,  Keep: True
+Feature: P10B20B                        Rank: 1,  Keep: True
+Feature: P11A05B                        Rank: 1,  Keep: True
+Feature: P11A06B                        Rank: 1,  Keep: True
+Precisión =  0.6560332871012483
