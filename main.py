@@ -40,7 +40,7 @@ X = scaler.transform(X)
 X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.25, random_state=42)
 
 # Definir el clasificador XGBOOST para ser utilizado por Boruta
-model = xgb.XGBClassifier()  #For Boruta
+model = xgb.XGBClassifier()
 
 """
 Crear funciones de sombra: funciones aleatorias y valores aleatorios en columnas
@@ -57,10 +57,10 @@ feat_selector = BorutaPy(model, n_estimators='auto', verbose=2, random_state=1)
 feat_selector.fit(X_train, y_train)
 
 # comprobar las características seleccionadas
-print(feat_selector.support_)  #Should we accept the feature
+print(feat_selector.support_)
 
 # comprobar la clasificación de características
-print(feat_selector.ranking_) #Rank 1 is the best
+print(feat_selector.ranking_)
 
 # llamar a transform() en X para filtrarlo a las características seleccionadas
 X_filtered = feat_selector.transform(X_train)  # Aplicar selección de características y devolver datos transformados

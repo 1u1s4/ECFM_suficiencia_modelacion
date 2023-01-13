@@ -14,14 +14,9 @@ ID -> NUMHOG [todas] *
 - P15B02 (En los últimos 15 días, ¿cuál fue el monto total de sus compras
 al crédito en alimentos?) [credito] *
 
-- P15B04 (¿Cuál fue el monto de sus compras al crédito de los bienes y
-artículos del hogar?) [credito] *
+- P15B04 (¿Cuál fue el monto de sus compras al crédito de los bienes y artículos del hogar?) [credito] *
 
-- P15B06A (Durante los ultimos 12 meses, cuantas compras al credito
-realizaron? (no. de compras)) [credito] *
-
-- P15A06A (Durante los ultimos 12 meses, cuantos prestamos recibieron los
-miembros del hogar?) [credito]
+- P15B06A (Durante los ultimos 12 meses, cuantas compras al credito realizaron? (no. de compras)) [credito] *
 
 - P13A02A (¿Cuántos comercios, negocios o fábricas tienen en éste hogar?) [no agro] *
 
@@ -73,7 +68,6 @@ miembros del hogar?) [credito]
 
 - P10B20B (Cuánto Le Costaría La Vivienda Por Mes Si Tuviera Que Aquilarla?) [personas] <promedio> *
 
-- P11A05B (Cuanto Recibio (...) De Ayudas O Donaciones De Personas Ubicadas En
-Guatemala?) [personas] <promedio> *
+- P11A05B (Cuanto Recibio (...) De Ayudas O Donaciones De Personas Ubicadas En Guatemala?) [personas] <promedio> *
 
 - P11A06B (Cuanto Recibio (...) Remesas De Personas Que Viven En El Extranjero?) [personas] <promedio>
