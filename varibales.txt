@@ -1,3 +1,79 @@
-Variables a usar
-ID
-- pobreza (Y)
+>>>Bases
+PERSONAS.sav -> personas
+Compras al crédito - encabezado-.sav -> credito
+Negocios No Agropecuarios Encabezado.sav -> no agro
+DONACIONES.sav -> donaciones
+
+>>>Variables a usar
+ID -> NUMHOG [todas] *
+
+- pobreza (Y) [todas] *
+
++ P01F03 (Si tuviera que comprar lo que recibio en los últimos 12 meses en donaciones, ¿cuánto cree que le costaría?) [donaciones] *
+
+- P15B02 (En los últimos 15 días, ¿cuál fue el monto total de sus compras
+al crédito en alimentos?) [credito] *
+
+- P15B04 (¿Cuál fue el monto de sus compras al crédito de los bienes y
+artículos del hogar?) [credito] *
+
+- P15B06A (Durante los ultimos 12 meses, cuantas compras al credito
+realizaron? (no. de compras)) [credito] *
+
+- P15A06A (Durante los ultimos 12 meses, cuantos prestamos recibieron los
+miembros del hogar?) [credito]
+
+- P13A02A (¿Cuántos comercios, negocios o fábricas tienen en éste hogar?) [no agro] *
+
+- P06B01 (Sabe Leer Y Escribir?) [personas] <total de sis> *
+
+- P06B10A (Cuánto Tiempo Tarda (...) Para Ir Al Centro Educativo Donde Estudia? (Horas)) [personas] <promedio> *
+
+- P06B10A (Cuánto Tiempo Tarda (...) Para Ir Al Centro Educativo Donde Estudia? (Minutos)) [personas] <promedio> *
+
+- P09A03B (Horas Que Trabajó Ayer Sin Percibir Ingresos) [personas] <promedio> *
+
+- P09A03C (Minutos Que Trabajó Ayer Sin Percibir Ingresos) [personas] <promedio> *
+
+- P09B02B (Cuantas Horas Pasó En Transporte A Su Lugar De Estudios? (Ayer)) [personas] <promedio> *
+
+- P09B02C (Cuantos Minutos Pasó En Transporte A Su Lugar De Estudios? (Ayer)) [personas] <promedio> *
+
+- P09F03B (Horas Que Dedico A Trasladarse A Su Lugar De Trabajo Ayer) [personas] <promedio> *
+
+- P09F03C (Minutos Que Dedico A Trasladarse A Su Lugar De Trabajo Ayer) [personas] <promedio> *
+
+- P09F04B (Horas Que Dedicó A Descansar, Relajarse, Etc. Ayer) [personas] <promedio> *
+
+- P09F04C (Minutos Que Dedicó A Descansar, Relajarse, Etc. Ayer) [personas] <promedio> *
+
+- P09F05B (Horas Que Dedico A Actividades Deportivas, Culturales Etc. Fuera Del Hogar Ayer) [personas] <promedio> *
+
+- P09F05C (Minutos Que Dedico A Actividades Deportivas, Culturales Etc. Fuera Del Hogar Ayer) [personas] <promedio> *
+
+- P09F06B (Horas Que Dedicó A Algún Trabajo Para Otros Hogares De Forma Gratuita Ayer) [personas] <promedio> *
+
+- P09F06C (Minutos Que Dedicó A Algún Trabajo Para Otros Hogares De Forma Gratuita Ayer) [personas] <promedio> *
+
+- P09F07B (Horas Que Dedicó A Realizar Gestiones Para Mejoras De La Comunidad Etc. Ayer) [personas] <promedio> *
+
+- P09F07C (Minutos Que Dedicó A Realizar Gestiones Para Mejoras De La Comunidad Etc. Ayer) [personas] <promedio> *
+
+- P09F08B (Horas Que Dedicó A Lectura Recreativa De Algún Libro, Revista, Períodico Ayer) [personas] <promedio> *
+
+- P09F08C (Minutos Que Dedicó A Lectura Recreativa De Algún Libro, Revista, Períodico Ayer) [personas] <promedio> *
+
+- P09F09B (Horas Que Dedicó A Ver Tele, Escuchar Música, Utilizar Internet (Entretenimiento) Ayer) [personas] <promedio> *
+
+- P09F09C (Minutos Que Dedicó A Ver Tele, Escuchar Música, Utilizar Internet (Entretenimiento) Ayer) [personas] <promedio> *
+
+- P10B01 (Cuántos Trabajos Tuvo (?.) La Semana Pasada?) [personas] <promedio> *
+
+- P10B08 (Cuál Fue El Sueldo O Salario Mensual Sin Descuentos De (...) En Este Trabajo?) [personas] <promedio> *
+
+- P10B20B (Cuánto Le Costaría La Vivienda Por Mes Si Tuviera Que Aquilarla?) [personas] <promedio> *
+
+- P11A05B (Cuanto Recibio (...) De Ayudas O Donaciones De Personas Ubicadas En
+Guatemala?) [personas] <promedio> *
+
+- P11A06B (Cuanto Recibio (...) Remesas De Personas Que Viven En El Extranjero?) [personas] <promedio>

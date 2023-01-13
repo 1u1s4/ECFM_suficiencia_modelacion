@@ -6,14 +6,14 @@ import xgboost as xgb
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
  
-df = pd.read_csv("data/wisconsin_breast_cancer_dataset.csv")
+df = pd.read_csv("data/db.csv")
 
 print(df.describe().T)
 print(df.isnull().sum())
 df = df.dropna()
 
 # Cambiar el nombre del conjunto de datos a Label para que sea fácil de entender
-df = df.rename(columns={'diagnosis':'Label'})
+df = df.rename(columns={'pobreza':'Label'})
 print(df.dtypes)
 
 # Reemplazar valores categóricos con números
@@ -28,7 +28,7 @@ Y = labelencoder.fit_transform(y)
 
 # Definir x y normalizar valores
 # Definir las variables independientes.
-X = df.drop(labels = ["Label", "id"], axis=1) 
+X = df.drop(labels = ["Label"], axis=1) 
 
 feature_names = np.array(X.columns)
 
