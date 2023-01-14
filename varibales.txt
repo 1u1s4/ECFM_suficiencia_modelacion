@@ -11,8 +11,7 @@ ID -> NUMHOG [todas] *
 
 + P01F03 (Si tuviera que comprar lo que recibio en los últimos 12 meses en donaciones, ¿cuánto cree que le costaría?) [donaciones] *
 
-- P15B02 (En los últimos 15 días, ¿cuál fue el monto total de sus compras
-al crédito en alimentos?) [credito] *
+- P15B02 (En los últimos 15 días, ¿cuál fue el monto total de sus compras al crédito en alimentos?) [credito] *
 
 - P15B04 (¿Cuál fue el monto de sus compras al crédito de los bienes y artículos del hogar?) [credito] *
 
